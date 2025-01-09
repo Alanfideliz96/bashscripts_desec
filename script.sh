@@ -2,7 +2,7 @@
 #Sempre quando for criar um script em bash tem que colocar essa primeira linha
 #ela é chamada shebang, indica ao interpretador que é um script em bash
 
-#Meu Primeiro Script
+#Meu Primeiro Script 
 echo "DESEC SECURITY" #echo exibe texto na tela.
 
 
@@ -35,5 +35,5 @@ read ip
 echo "Efetuando ping no host $ip"
 ping -c1 $ip
 
-#OBS: Esse parametro -c1, significa que e para enviar apenas 1 pacote.
+#OBS: Esse parametro "-c1", significa que e para enviar apenas 1 pacote.
 
