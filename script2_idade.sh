@@ -5,7 +5,7 @@ echo "Qual a sua idade?"
 read idade
 
 if [ -z "$idade" ]
-# -z $idade eu verificar se a variável idade está vazia
+# -z $idade eu verifico se a variável idade está vazia
 then
 	echo "Ou fornece alguma coisa ai man"
 
