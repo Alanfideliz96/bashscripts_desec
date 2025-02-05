@@ -4,9 +4,18 @@ echo "Qual a sua idade?"
 
 read idade
 
-if [ "$idade" -ge "18" ]
-then 
+if [ -z "$idade" ]
+# -z $idade eu verificar se a variável idade está vazia
+then
+	echo "Ou fornece alguma coisa ai man"
+
+elif [ "$idade" -ge "18" ]
+then
 	echo "Pode dirigir"
-else
+
+elif [ "$idade" -lt "18" ]
+then
 	echo "Não pode dirigir"
+else
+	echo "Você está digitando parâmetros não suportados, insira números"
 fi
