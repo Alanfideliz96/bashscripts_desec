@@ -14,7 +14,7 @@ O objetivo deste repositório é servir como um **repositório de aprendizado**,
 Para executar um script, siga estes passos:  
 
 1️⃣ Clone este repositório: 
-git clone https://github.com/seu-usuario/bashscripts_desec.git
+git clone https://github.com/Alanfideliz96/bashscripts_desec.git
 
 2️⃣ Acesse a pasta do projeto:
 cd bashscripts_desec
