@@ -24,3 +24,6 @@ chmod +x nome_do_script.sh
 
 4️⃣ Execute o script:
 ./nome_do_script.sh
+
+📢 Contribuições
+Este é um projeto de aprendizado pessoal, mas se quiser sugerir melhorias ou apontar algo, fique à vontade para abrir uma Issue ou enviar um Pull Request.
